@@ -1,0 +1,85 @@
+/* h2{
+    color:yellow;
+    text-shadow:2px 2px rgb(146, 179, 113);
+    text-align: center;
+    font-size:200%;
+    font-family: 'New Tegomin', serif;
+}
+div{
+    text-align: center; 
+}
+img{
+    border-radius: 12px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid rgb(146, 179, 113); 
+    box-shadow: 10px 10px yellow;
+}
+body{
+    background:linear-gradient(to right, rgb(255, 187, 0), rgb(11, 10, 10));;
+}
+p{
+    color:#51ff0d;
+    font-family: 'New Tegomin', serif;
+}
+a{
+    text-decoration: none;
+}
+#title{
+    color:#ff141e;
+}
+#img2{
+    border-radius: 12px;
+    border: 2px solid rgb(146, 179, 113); 
+    box-shadow: 10px 10px yellow;
+    height: 350px;
+    width: 300px;
+} */
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:blue;
+    border:2px solid rgb(78, 255, 62);
+}
+h1{
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+    text-shadow:crimson 2px 2px;
+    color:white;
+    font-size:300%;
+                                                
+}
+h2{
+    color:whitesmoke;
+    font-family: cursive;
+    font-size:300%;
+    text-shadow:crimson 2px 2px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    justify-content: center;
+}
+img{
+    box-shadow: whitesmoke 2px 2px;
+}
+.content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:10px;
+}
+#img2{
+    box-shadow: none;
+    opacity:0.5;
+}
+img:hover{
+    opacity: 0.5;
+}
+#img2:hover{
+    opacity:1;
+}
